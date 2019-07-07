@@ -4,6 +4,7 @@
 
 - ses.py contains the layer defined for simple exponential smoothing
 - main.py is an example for training the layer
+- plots below show fit (orange) to actual series (blue)
 
 <p align='center'>
   <b> Example of time series fit with simple exponential smoothing layer</b>
