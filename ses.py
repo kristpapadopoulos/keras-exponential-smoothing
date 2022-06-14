@@ -18,7 +18,7 @@ class SES(tf.keras.layers.Layer):
     V0 Date:   July 6, 2019
                tensorflow==1.10.1
     V1 Date:   June 14, 2022
-               tensorflow==2.6.2
+               tensorflow==2.6.5
     """
     def __init__(self, min_constraint, max_constraint, dtype=tf.float32):
         super(SES, self).__init__()
