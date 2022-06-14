@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 import tensorflow as tf
 
 class SES(tf.keras.layers.Layer):
     """
     Tensorflow/Keras implementation of Simple Exponential Smoothing.
 
-    Layer define to learn parameters: alpha
+    Layer defines alpha parameter
     as per component form of simple exponential smoothing
     defined from Forecasting: Principles and Practice
     by Hyndman and George Athanasopoulos https://otexts.com/fpp2/
+    
+    Max and min constraint parameters are arguments to limit the size of alpha
+    between 0 and 1. e.g. min_constraint = 0.01, max_constraint = 0.5
 
     Reference: https://github.com/mcskinner/ets
 
