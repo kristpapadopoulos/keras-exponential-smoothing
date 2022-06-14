@@ -9,5 +9,5 @@
 <p align='center'>
   <b> Example of time series fit with simple exponential smoothing layer</b>
 
-![SES Examples](exponential_smoothing_examples.png)
+![SES Example with constrained alpha](ses.png)
 </p>
